@@ -5,9 +5,9 @@
         <a class="p-2 text-dark" href="\add">Добавить отзыв</a>
         <a class="p-2 text-dark" href="\catalog">Отзывы</a>
     </nav>
-    {{— <div class="a3">--}}
-    {{— <a id="a1" class="btn btn-outline-primary" href="{{ route('registration') }}">Регистрация</a>--}}
-    {{— </div>--}}
+{{--    {{— <div class="a3">--}}
+{{--    {{— <a id="a1" class="btn btn-outline-primary" href="{{ route('registration') }}">Регистрация</a>--}}
+{{--    {{— </div>--}}
 </header>
 <style>
     #a1,#a2 {
