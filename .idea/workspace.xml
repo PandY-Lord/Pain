@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9154d314-13eb-49c6-b1b9-96370ea79dbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pain/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pain/app/Http/Requests/ContactRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pain/app/Model/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pain/database/migrations/2020_12_12_150926_create_contacts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pain/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pain/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pain/resources/views/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pain/resources/views/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pain/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pain/resources/views/homepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pain/resources/views/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pain/resources/views/inc/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pain/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pain/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,12 +134,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1lWJdmxDXzUxUL6gOvk7eBeVTgH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -139,6 +152,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pasha\Desktop\ТБД\OpenServer\Pain\Pain\app\Model" />
+      <recent name="C:\Users\pasha\Desktop\ТБД\OpenServer\Pain\Pain\resources\views\admin" />
       <recent name="C:\Users\pasha\Desktop\ТБД\OpenServer\Pain\Pain\resources\views" />
     </key>
   </component>
@@ -151,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607707010951</updated>
       <workItem from="1607707013595" duration="2582000" />
-      <workItem from="1607769562914" duration="1888000" />
+      <workItem from="1607769562914" duration="22030000" />
     </task>
     <task id="LOCAL-00001" summary="Обновил стили">
       <created>1607771119875</created>
@@ -160,13 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607771119876</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Обновил стили">
+      <created>1607771490108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607771490108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Обновил стили" />
     <option name="LAST_COMMIT_MESSAGE" value="Обновил стили" />
   </component>

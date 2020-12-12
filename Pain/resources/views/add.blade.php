@@ -12,22 +12,37 @@
 
 @include('inc.header')
 
+@if($errors->any())
+    <div class="alert alert-danger">
+    <ul>
+        @foreach($errors->all() as $error)
+            <li>{{$error}}</li>
+        @endforeach
+    </ul>
+    </div>
+    @endif
+
 <form action="/add" method="post">
     @csrf
     <div class="form-group">
-        <label for="name">Заголовок</label>
-        <input type="text" name="name" placeholder="Заголовок" id="name" class="form-control ">
+        <label for="author">Автор</label>
+        <input required name="author" placeholder="Автор сообщения" id="author" class="form-control ">
     </div>
 
     <div class="form-group">
-        <label for="genre">Жанр</label>
-        <input type="text" name="genre" placeholder="Введите жанр" id="genre" class="form-control">
+        <label for="theme">Тема</label>
+        <input pattern=".{5,45}"  required name="text" placeholder="Тема сообщения" id="theme" class="form-control ">
+    </div>
+
+    <div class="form-group">
+        <label for="teg">Тег</label>
+        <input pattern=".{5,45}" required name="text" placeholder="Придумайте тег для сообщения" id="teg" class="form-control">
     </div>
     <div class="form-group">
-        <label for="fullText">Отзыв</label>
-        <textarea type="text" name="fullText" placeholder="Отзыв об игре" id="fullText" class="form-control"></textarea>
+        <label for="fullText">Сообщение</label>
+        <textarea required name="fullText" placeholder="Текст сообщения" id="fullText" class="form-control"></textarea>
     </div>
-    <button type="submit" class="btn btn-success">Supply</button>
+    <button type="submit" class="btn btn-primary">Готово!</button>
 </form>
 <style>
     form {

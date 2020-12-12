@@ -33,6 +33,7 @@ Route::get('/catalog', function () {
     return view('catalog');
 })->name('catalog');
 
+Route::post('/add', 'ContactController@submit');
+
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
